@@ -1,0 +1,91 @@
+//Trivia page css
+
+#trivia {
+
+    width: 50vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 6, 0.5);
+    backdrop-filter: blur(3.5px); // only google chrome suppurts
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: #f2f2f2;
+    border-radius: 30px;
+
+}
+
+.end-button {
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.trivia-heading {
+    margin-top: 25px;
+}
+
+.trivia-button {
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#trivia-bg-img {
+    width: 100vw;
+    display: block;
+
+
+}
+
+.trivia-bg-img {
+    position: absolute;
+    z-index: 3;
+
+}
+
+.bgc-responsive {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f5c5;
+}
+
+// responsive design for tablet and phone
+
+@media (min-width:480px) and (max-width:810px) {
+    #trivia {
+        height: 87vh !important;
+
+    }
+
+    // on phone and tablet there is no back pic only background color
+    #trivia-bg-img {
+
+        display: none;
+    }
+        .trivia-button {
+            font-size: 14px;
+        }
+}
+
+@media (min-width:250px) and (max-width:480px) {
+
+    #trivia {
+        height: 87vh !important; // overwriting bootstrap design using important property
+
+    }
+
+    #trivia-bg-img {
+
+        display: none;
+    }
+        .trivia-button {
+            font-size: 14px;
+        }
+
+}

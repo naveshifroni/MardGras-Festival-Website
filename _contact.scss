@@ -1,0 +1,52 @@
+//  Contact us design
+.form1 {
+    
+    width: 79vw;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    font-family: 'pattaya', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: #f3f5c5;
+}
+
+.email-input {
+    font-size: 23px;
+
+}
+
+.bgcolor-contact {
+
+    background-color: #feffe0;
+    text-align: center;
+
+}
+
+.formheadline {
+    font-family: 'Henny Penny';
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.label {
+    font-size: 23px;
+}
+
+.inputthoughts {
+  width: 40vw;
+  height: 40vh;
+}
+// css for case user dosent fill the information coorectly activate by java script
+.inv-feedback {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+// when user fills correctly hidden class removed and feedback displayed
+.hidden {
+    display: none;
+}

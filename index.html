@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Mardi Gra Site</title>
+    <link rel="icon" href="images/favicon2.jpg">
+</head>
+
+<body>
+    <!-- header/navbar  -->
+    
+        <div class="header">
+            <header>
+                <img id="headerbg" src="images/bg3.webp" alt=""> <!-- background image for navbar -->
+                <div class="navbaby">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" id="logo" href="index.html">Mardi <br> Gras</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav" id="ulHeader"></ul>
+                            <li class="nav-item nav-item1"> <a href="index.html" class="nav-link"> Home </a></li>
+                            <li class="nav-item nav-item2"> <a href="about.html" class="nav-link"> About </a>
+                            </li>
+                            <li class="nav-item nav-item3"> <a href="media.html" class="nav-link"> Media </a></li>
+                            <li class="nav-item nav-item4"> <a href="FAQ.html" class="nav-link"> FAQ </a></li>
+                            <li class="nav-item nav-item5"> <a href="contact.html" class="nav-link"> Contact </a></li>
+                            <a href="#"> <img src="images/logomardi.png" id="logomardi"></a> <!-- Logo only on home page -->
+                        </div>
+
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <!-- carousel -->
+        <div class="thecarousel">
+            <!--   trivia icon -->
+            <a href="trivia.html">
+                <div class="trivia-icon">
+                    <img id="triviaIcon" src="images/trivia3.png">
+                </div>
+            </a>
+            <div>
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel__item">
+                            <img src="images/home2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block image__overlay">
+                                <h5 class="carousel-h5 item1-h5">The beuty of Mardi Gras</h5>
+                                <p class="carousel-p item1-p">Wonderful colors always covering the streets.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel__item">
+                            <img src="images/home1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block image__overlay">
+                                <h5 class="carousel-h5">Pepole of the city</h5>
+                                <p class="carousel-p">Come together to celebrate</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item carousel__item">
+                            <img src="images/home8.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block image__overlay">
+                                <h5 class="carousel-h5">Uniqe Custums and masks</h5>
+                                <p class="carousel-p">will always catch you by surprise</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item carousel__item">
+                            <img src="images/home5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block image__overlay">
+                                <h5 class="carousel-h5">Pure fun for everyone</h5>
+                                <p class="carousel-p">No one is left alone</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item carousel__item">
+                            <img src="images/home3.jpg" class="d-block w-100 image__img" alt="...">
+                            <div class="carousel-caption d-none d-md-block image__overlay">
+                                <h5 class="carousel-h5">Amazing artwork everywhere</h5>
+                                <p class="carousel-p">Statues, street art and more...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- sponsors cards -->
+        <div class="cards">
+            <h2 class="headline">Meet Our Sponsors</h2>
+            <section class="container">
+
+
+
+                <div class="card card1 hover-card" style="width: 18rem;">
+                    <img src="images/walkoncard.jpeg" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Walk On's Sports bistreaux</h5>
+                        <p class="card-text"> Walk on Sports Bistreaux , the famous Cajun couisin,
+                            is the real taste of louisiana! </p>
+                        <a href="https://walk-ons.com/" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card2 hover-card" style="width: 18rem;">
+                    <img src="images/sheratoncard2.jpg" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheraron New Orleans Hotel</h5>
+                        <p class="card-text"> Hotel that is really is The heart of New Orleans</p>
+                        <a href="https://www.facebook.com/SheratonNOLA/" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card3 hover-card" style="width: 18rem;">
+                    <img src="images/ritzcarltoncard.png" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Ritz Carlton Hotel</h5>
+                        <p class="card-text">The Ritz-Carlton, New Orleans in the French Quarter offers luxury hotel
+                            amenities including a spa,
+                            large rooms and a
+                            lounge with live jazz.</p>
+                        <a href="https://www.ritzcarlton.com/en/hotels/new-orleans" class="btn btn-primary">Visit
+                            site</a>
+                    </div>
+                </div>
+
+                <div class="card card4 hover-card" style="width: 18rem;">
+                    <img src="images/premiumparkingcard.jpg" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Premium Parking </h5>
+                        <p class="card-text">Daily/Monthly parking at 300 N Peters St, New Orleans, LA. Reserve online
+                            or drive up, park and pay
+                            via mobile phone.</p>
+                        <a href="https://www.premiumparking.com/P402" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card5 hover-card" style="width: 18rem;">
+                    <img src="images/lcmcard3.webp" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Louisiana Children's Museum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="https://lcm.org/" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card6 hover-card" style="width: 18rem;">
+                    <img src="images/modcard.webp" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Museum of Death</h5>
+                        <p class="card-text">The world-famous Museum of Death is located in New Orleans' French Quarter.
+                            Those brave enough to
+                            visit can view and
+                            learn more about body bags, coffins, skulls and morticians</p>
+                        <a href="http://www.museumofdeath.net/" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card7 hover-card" style="width: 18rem;">
+                    <img src="images/hmcard.jpg" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Haunted Museum</h5>
+                        <p class="card-text">The Haunted Museum in downtown New Orleans is the perfect fear-inducing,
+                            adrenaline-pumping
+                            attraction for people who love
+                            spooky artifacts all year round!.</p>
+                        <a href="https://www.neworleans.com/listing/bloody-marys-tours-haunted-museum-and-voodoo-shop/11608/"
+                            class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="card card8 hover-card" style="width: 18rem;">
+                    <img src="images/ahcard2.jpg" class="card-img-top logo-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ace Hotel New Orleans</h5>
+                        <p class="card-text">Explore the upscale rooms and suites at Ace Hotel New Orleans, featuring
+                            French Deco decadence of
+                            the city, king beds,
+                            outdoor terraces, and more.</p>
+                        <a href="https://acehotel.com/new-orleans/" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <footer class="white-section" id="footer">
+                <div class="container-fluid">
+                    <a href="https://www.facebook.com/MardiGrasNewOrleans"
+                        class="social-icon fa-brands fa-facebook"></a>
+                    <a href="https://twitter.com/MardiGrasNOLA" class="social-icon fa-brands fa-twitter"></a>
+                    <a href="https://www.instagram.com/nolamardigras/?hl=en"
+                        class="social-icon fa-brands fa-instagram"></a>
+                    <a href="mailto: press@mardigrasneworleans.com" class="social-icon fa-solid fa-envelope"></a>
+
+
+
+                    <p class="copyright">© Copyright 2022 Nave Shifroni</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- bootstrap script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+
+        <!-- fontawsome for footer-->
+        <script src="https://kit.fontawesome.com/ceb4a1cbbe.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

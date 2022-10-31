@@ -1,0 +1,57 @@
+// Bootstrap cards css design
+
+.cards {
+    background-color: #feffe0;
+
+}
+
+.headline {
+    font-family: 'Pattaya';
+    font-size: 32px;
+    color: #9435af;
+    padding-bottom: 15px;
+    text-align: center;
+    padding: 25px 25px;
+
+
+}
+// heading bottom line design
+.headline::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #8cbf3f;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    font-family: 'san-serif';
+    font-weight: light;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 25px;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: pattaya;
+}
+
+.logo-img {
+    height: 270px;
+}
+
+.card {
+    height: 550px !important; // rewriting bootstrap code using impotant property
+}
+
+//hover design
+.hover-card:hover { 
+    background-color: #548ac4;
+    color: white;
+    transform: scale(1.016);
+    transition: all 1s ease;
+}

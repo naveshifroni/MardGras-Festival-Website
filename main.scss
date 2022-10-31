@@ -1,0 +1,15 @@
+// main file imports al scss files
+
+@import url('<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@300&display=swap" rel="stylesheet">');
+ @import url('< !-- CSS only --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">');
+@import "setup";
+@import "header";
+@import "carousel";
+@import "cards";
+@import "about";
+@import "media";
+@import "FAQ";
+@import "contact";
+@import "footer";
+@import "lightbox";
+@import "trivia";

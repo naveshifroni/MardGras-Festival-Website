@@ -1,0 +1,101 @@
+// Media page css design
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f5c5;
+    padding: 10px 50px 50px 50px !important;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    font-family: 'roboto';
+    font-size: 30px;
+    background-color: #f3f5c5;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.media-heading {
+    font-family: 'Pattaya';
+    font-size: 32px;
+    color: #9435af;
+    padding-bottom: 10px;
+    padding-top: 18px;
+}
+
+.media-heading::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #8cbf3f;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.videos {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: #f3f5c5;
+    width: 83.5vw;
+    margin: auto;
+    text-align: center;
+}
+.video {
+    padding: 30px;
+    margin: auto;
+}
+// responsiv design for tablet and phone
+@media (min-width:480px) and (max-width:810px) {
+    .container {
+        width: 100vw;
+        background-color: #f3f5c5;
+
+    }
+    
+    .videos {
+    
+
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .video {
+        width: 100vw;
+        padding: auto;
+    }
+
+
+
+}
+
+@media (min-width:250px) and (max-width:480px) {
+    .container {
+        width: 100vw;
+        background-color: #f3f5c5;
+
+    }
+
+
+    .videos {
+       
+width: 100vw;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .video {
+        width: 70vw;
+        padding: auto;
+    }
+
+}

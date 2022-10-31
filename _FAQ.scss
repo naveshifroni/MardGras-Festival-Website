@@ -1,0 +1,33 @@
+// FAQ css design
+
+.faqaccordion {
+    position: relative;
+}
+
+.accordion-button {
+    font-family: 'pattaya';
+}
+
+.accordion-body {
+    font-family: 'roboto';
+}
+
+.faq-heading {
+    font-family: 'Pattaya';
+    font-size: 32px;
+    color: #9435af;
+    padding-bottom: 15px;
+    text-align: center;
+    padding: 25px 25px;
+    background-color: #feffe0;
+}
+
+.faq-heading::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #8cbf3f;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}

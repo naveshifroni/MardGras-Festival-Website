@@ -1,0 +1,68 @@
+
+// Header css design
+header {
+
+    position: relative;
+    display: flex;
+    background-color: rgb(250, 179, 71); // if background image dosen't load
+    justify-content: center;
+    width: 100vw;
+    height: 190px;
+    z-index: 200;
+}
+
+#headerbg {
+    width: 100vw;
+}
+
+#logo {
+    font-family: 'Henny Penny';
+    font-size: 58px;
+    color: black;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#logomardi {
+    height: 130px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.navbaby {
+
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item {
+
+    font-family: pattaya;
+    padding: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.nav-item1 {
+    background-color: #9453A6;
+}
+
+.nav-item2 {
+    background-color: #f2cc0f;
+}
+
+.nav-item3 {
+    background-color: #8cbf3f;
+}
+
+.nav-item4 {
+    background-color: #f2cc0f;
+}
+
+.nav-item5 {
+    background-color: #9453A6;
+}
